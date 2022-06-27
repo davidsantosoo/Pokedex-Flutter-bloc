@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+class PokemonDetails {
+  final int id;
+  final String name;
+  final String imageUrl;
+  final List<String> types;
+  final List<String> abilities;
+  final int height;
+  final int weight;
+  final String description;
+
+  PokemonDetails(
+      {@required this.id,
+      @required this.name,
+      @required this.imageUrl,
+      @required this.types,
+      @required this.abilities,
+      @required this.height,
+      @required this.weight,
+      @required this.description});
+}
